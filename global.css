@@ -64,7 +64,6 @@ a {
   max-width: 1263px;
   width: 100%;
   margin: 0 auto;
-  border: 2px solid black;
   height: 100%;
 }
 
@@ -72,8 +71,9 @@ header {
   height: 84px;
 }
 header .container img {
-  margin-top: 24px;
+  margin-top: 20px;
   display: inline-block;
+  margin-right: 667px;
 }
 header .container .headerflex {
   display: inline-flex;
@@ -83,6 +83,7 @@ header .container .headerflex {
   justify-content: space-between;
   height: 100%;
   align-items: center;
+  vertical-align: top;
 }
 header .container .headerflex p {
   color: #636060;
@@ -91,4 +92,9 @@ header .container .headerflex p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.s1 img {
+  max-width: 100%;
+  width: 100%;
 }/*# sourceMappingURL=global.css.map */
