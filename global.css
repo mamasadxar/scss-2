@@ -60,14 +60,8 @@ a {
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1400px) {
-  .container {
-    max-width: 90%;
-    width: 100%;
-  }
-}
 .container {
-  max-width: 1263px;
+  max-width: 1270px;
   width: 100%;
   margin: 0 auto;
 }
@@ -117,6 +111,8 @@ header .container .headerflex p {
 .s2 .container .discover {
   max-width: 235px;
   width: 100%;
+  display: inline-block;
+  margin-right: 83px;
 }
 .s2 .container .discover h1 {
   color: #636060;
@@ -125,6 +121,7 @@ header .container .headerflex p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 9px;
 }
 .s2 .container .discover h2 {
   color: #010101;
@@ -133,11 +130,151 @@ header .container .headerflex p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 37px;
 }
 .s2 .container .discover h3 {
   color: #636060;
   font-family: Helvetica;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s2 .container .s2flex1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 926px;
+  width: 926px;
+  margin-bottom: 56px;
+}
+.s2 .container .s2flex1 .card1 img {
+  margin-bottom: 23px;
+}
+.s2 .container .s2flex1 .card1 h4 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.s2 .container .s2flex1 .card1 h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s2 .container .s2flex1 .card2 img {
+  margin-bottom: 23px;
+}
+.s2 .container .s2flex1 .card2 h4 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.s2 .container .s2flex1 .card2 h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s2 .container .s2flex1 .card3 img {
+  margin-bottom: 23px;
+}
+.s2 .container .s2flex1 .card3 h4 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.s2 .container .s2flex1 .card3 h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s2 .container .s2flex2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 926px;
+  width: 926px;
+  margin-bottom: 56px;
+  margin-left: 318px;
+}
+.s2 .container .s2flex2 .card4 img {
+  margin-bottom: 23px;
+}
+.s2 .container .s2flex2 .card4 h4 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.s2 .container .s2flex2 .card4 h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s2 .container .s2flex2 .card5 img {
+  margin-bottom: 23px;
+}
+.s2 .container .s2flex2 .card5 h4 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.s2 .container .s2flex2 .card5 h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s2 .container .s2flex2 .card6 img {
+  margin-bottom: 23px;
+}
+.s2 .container .s2flex2 .card6 h4 {
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.s2 .container .s2flex2 .card6 h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
