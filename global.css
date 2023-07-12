@@ -54,4 +54,26 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1263px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid black;
+  height: 100%;
+}
+
+header {
+  height: 84px;
+}
+header .container img {
+  margin-top: 24px;
+  display: inline-block;
+}
+header .container .headerflex {
+  display: inline-flex;
+  max-width: 554px;
+  width: 100%;
+  flex-direction: row;
 }/*# sourceMappingURL=global.css.map */
