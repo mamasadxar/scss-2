@@ -2,7 +2,12 @@
     max-width: 1263px;
     width: 100%;
     margin: 0 auto;
-    height: 100%;
+}
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 90%;
+        width: 100%;
+    }
 }
 header {
     height: 84px;
@@ -10,7 +15,8 @@ header {
         img {
             margin-top: 20px;
             display: inline-block;
-            margin-right: 667px;
+            vertical-align: top;
+            margin-right: 665px;
         }
         .headerflex {
             display: inline-flex;
@@ -18,8 +24,8 @@ header {
             width: 100%;
             flex-direction: row;
             justify-content: space-between;
-            height: 100%;
-            align-items: center;
+            height: 55px;
+            align-items: flex-end;
             vertical-align: top;
             p {
                 color: #636060;
