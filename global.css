@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -76,4 +80,15 @@ header .container .headerflex {
   max-width: 554px;
   width: 100%;
   flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+header .container .headerflex p {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=global.css.map */

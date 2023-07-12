@@ -17,6 +17,17 @@ header {
             max-width: 554px;
             width: 100%;
             flex-direction: row;
+            justify-content: space-between;
+            height: 100%;
+            align-items: center;
+            p {
+                color: #636060;
+                font-family: Helvetica;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
         }
     }
 }
